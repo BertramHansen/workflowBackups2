@@ -1,0 +1,76 @@
+{
+  "updatedAt": "2026-02-02T08:45:37.030Z",
+  "createdAt": "2026-02-02T08:44:03.453Z",
+  "id": "LSO3pF9-H5ztxGEgoHgO9",
+  "name": "Excercise 2 week 1",
+  "active": false,
+  "isArchived": false,
+  "nodes": [
+    {
+      "parameters": {
+        "triggerTimes": {
+          "item": [
+            {
+              "mode": "everyMinute"
+            }
+          ]
+        }
+      },
+      "id": "5875717b-5e0f-402e-95d1-4326b9f60d86",
+      "name": "Cron",
+      "type": "n8n-nodes-base.cron",
+      "typeVersion": 1,
+      "position": [
+        -128,
+        48
+      ]
+    },
+    {
+      "parameters": {
+        "functionCode": "return [{ json: { message: 'Hello from n8n!' } }];"
+      },
+      "id": "20b374e6-8cb4-4f89-9ee5-7b3278959b63",
+      "name": "Function",
+      "type": "n8n-nodes-base.function",
+      "typeVersion": 1,
+      "position": [
+        128,
+        48
+      ]
+    }
+  ],
+  "connections": {
+    "Cron": {
+      "main": [
+        [
+          {
+            "node": "Function",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": null,
+  "pinData": {},
+  "versionId": "55de3fec-0c5e-4111-a8a8-a20b2cd28933",
+  "activeVersionId": null,
+  "triggerCount": 0,
+  "shared": [
+    {
+      "updatedAt": "2026-02-02T08:44:03.471Z",
+      "createdAt": "2026-02-02T08:44:03.471Z",
+      "role": "workflow:owner",
+      "workflowId": "LSO3pF9-H5ztxGEgoHgO9",
+      "projectId": "xtknxhyRXtEWkpIg"
+    }
+  ],
+  "activeVersion": null,
+  "tags": []
+}
