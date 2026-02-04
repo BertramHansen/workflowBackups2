@@ -1,0 +1,32 @@
+{
+  "updatedAt": "2026-02-04T08:44:39.522Z",
+  "createdAt": "2026-02-04T08:44:36.501Z",
+  "id": "Mmb13KP5Bn_nFQNhD5fLB",
+  "name": "Send email om lektier til mig selv",
+  "active": false,
+  "isArchived": false,
+  "nodes": [],
+  "connections": {},
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "staticData": null,
+  "meta": null,
+  "pinData": {},
+  "versionId": "a81187fc-0589-4885-b591-c3151225221c",
+  "activeVersionId": null,
+  "triggerCount": 0,
+  "shared": [
+    {
+      "updatedAt": "2026-02-04T08:44:36.523Z",
+      "createdAt": "2026-02-04T08:44:36.523Z",
+      "role": "workflow:owner",
+      "workflowId": "Mmb13KP5Bn_nFQNhD5fLB",
+      "projectId": "xtknxhyRXtEWkpIg"
+    }
+  ],
+  "activeVersion": null,
+  "tags": []
+}
